@@ -627,5 +627,3 @@ QRS_duration = mean(rmoutliers(QRS_durations_cycle,'median'));
 
 figure (1001)
 plot(time_ECG,y,'DisplayName','y');hold on;plot(locs,qrspeaks,'*');hold on; yyaxis right;plot(time_ECG,sample_ECG,'DisplayName','ecg_tonom');hold off
-
-SDI_calculation;
